@@ -4,7 +4,7 @@ import './App.css';
 
 import Header from './components/header/Header';
 import Picture from './components/content/Picture';
-import ContactMe from './components/content/ContactMe';
+import Social from './components/content/Social';
 import Projects from './components/content/Projects';
 import Blog from './components/content/Blog';
 
@@ -22,7 +22,7 @@ function App() {
 				<div className='flex flex-col'>
 					<div className='flex h-full mt-10'>
 						<Picture />
-						<ContactMe />
+						<Social />
 					</div>
 					<div className='flex h-full mr-10'>
 						<Blog />
